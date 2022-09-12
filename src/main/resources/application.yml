@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: "dev"
+
+logging:
+  level:
+    org:
+      springframework:
+        jdbc:
+          core: "DEBUG"
+
+server:
+  servlet:
+    context-path: /api
